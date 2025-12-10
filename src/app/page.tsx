@@ -66,7 +66,7 @@ export default function Home() {
               <li key={item} className="shrink-0">
                 <a
                   href={`#${item.toLowerCase()}`}
-                  className={`block px-3 md:px-4 py-3 border-r-2 border-black hover:bg-black hover:text-white transition-colors whitespace-nowrap ${index === 0 ? "border-l-2 md:border-l-0" : ""}`}
+                  className={`block px-3 md:px-4 py-3 border-r-2 border-black hover:bg-black hover:text-white transition-colors whitespace-nowrap ${index === 0 ? "border-l-2" : ""}`}
                 >
                   {item}
                 </a>
