@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 export default function Home() {
@@ -17,16 +17,12 @@ export default function Home() {
           {/* Contact Info */}
           <div className="mt-6 flex flex-wrap gap-4 text-sm font-mono">
             <a 
-              href="mailto:pavelandrewshpagin@gmail.com" 
+              href="mailto:pavelandrewshpagin@knu.ua" 
               className="flex items-center gap-2 hover:bg-black hover:text-white px-2 py-1 border-2 border-black transition-colors"
             >
               <FaEnvelope className="w-4 h-4" />
-              pavelandrewshpagin@gmail.com
+              pavelandrewshpagin@knu.ua
             </a>
-            <span className="flex items-center gap-2 px-2 py-1 border-2 border-black">
-              <FaPhone className="w-4 h-4" />
-              +380 95-332-6340
-            </span>
           </div>
 
           {/* Social Links */}
@@ -64,13 +60,13 @@ export default function Home() {
 
       {/* Navigation */}
       <nav className="border-b-2 border-black sticky top-0 bg-white z-50">
-        <div className="max-w-4xl mx-auto px-6">
-          <ul className="flex flex-wrap gap-0 text-sm font-mono">
-            {["Education", "Publications", "Experience", "Projects", "Skills", "Awards"].map((item) => (
-              <li key={item}>
+        <div className="max-w-4xl mx-auto">
+          <ul className="flex overflow-x-auto text-sm font-mono scrollbar-hide">
+            {["Education", "Publications", "Experience", "Projects", "Skills", "Awards"].map((item, index) => (
+              <li key={item} className="shrink-0">
                 <a
                   href={`#${item.toLowerCase()}`}
-                  className="block px-4 py-3 border-r-2 border-black hover:bg-black hover:text-white transition-colors"
+                  className={`block px-3 md:px-4 py-3 border-r-2 border-black hover:bg-black hover:text-white transition-colors whitespace-nowrap ${index === 0 ? "border-l-2 md:border-l-0" : ""}`}
                 >
                   {item}
                 </a>

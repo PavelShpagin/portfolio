@@ -51,6 +51,16 @@ a {
   background: #000000;
 }
 
+/* Hide scrollbar for navigation on mobile */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Print styles */
 @media print {
   body {
