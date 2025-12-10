@@ -60,7 +60,7 @@ export default function Home() {
 
       {/* Navigation */}
       <nav className="border-b-2 border-black sticky top-0 bg-white z-50">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto px-6">
           <ul className="flex overflow-x-auto text-sm font-mono scrollbar-hide">
             {["Education", "Publications", "Experience", "Projects", "Skills", "Awards"].map((item, index) => (
               <li key={item} className="shrink-0">
