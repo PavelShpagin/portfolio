@@ -17,11 +17,11 @@ export default function Home() {
           {/* Contact Info */}
           <div className="mt-6 flex flex-wrap gap-4 text-sm font-mono">
             <a 
-              href="mailto:pavelandrewshpagin@knu.ua" 
+              href="mailto:pavel.shpagin@theacademia.tech" 
               className="flex items-center gap-2 hover:bg-black hover:text-white px-2 py-1 border-2 border-black transition-colors"
             >
               <FaEnvelope className="w-4 h-4" />
-              pavelandrewshpagin@knu.ua
+              pavel.shpagin@theacademia.tech
             </a>
           </div>
 
