@@ -103,12 +103,12 @@ export default function Home() {
         <Section id="publications" title="Publications & Submissions">
           <div className="space-y-4">
             <PublicationCard
-              title="NaviLoc: Visual Global Localization and Refinement for GNSS-Denied UAV Navigation"
-              date="Dec 2025"
-              authors="Pavel Shpagin"
-              journal="Sensors (MDPI)"
-              status="Under review"
-              doi="https://doi.org/10.5281/zenodo.17779253"
+              title="NaviLoc: Trajectory-Level Visual Localization for GNSS-Denied UAV Navigation"
+              date="Jan 2026"
+              authors="Pavel Shpagin and Taras Panchenko"
+              journal="Drones (MDPI), 2026, 10(2), 97"
+              status="Published"
+              doi="https://doi.org/10.3390/drones10020097"
             />
             <PublicationCard
               title="Practical Polygonal Triangulation in O(n + r log r) Time"
