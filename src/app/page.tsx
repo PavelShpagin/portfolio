@@ -146,8 +146,9 @@ export default function Home() {
               location="Kyiv, Ukraine"
               period="September 2025 - Present"
               highlights={[
-                "Developed a SOTA UAV localization system; results submitted for publication and currently under review.",
-                "Optimized navigation algorithms 10x, making Pi5 deployment feasible.",
+                "Developed NaviLoc, a GNSS-denied UAV localization system; published in Drones (MDPI), a Q1 journal.",
+                "Optimized navigation algorithms 10x, making Pi 5 deployment feasible.",
+                "Accelerated server preprocessing by 20x, enabling faster missions at scale.",
               ]}
             />
             <ExperienceCard
