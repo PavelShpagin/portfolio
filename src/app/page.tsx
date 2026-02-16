@@ -184,9 +184,10 @@ export default function Home() {
               tech="Azure, Jira, OpenAI API, Figma"
               period="October 2025 - November 2025"
               highlights={[
+                "Built and deployed a novel agentic Signal SupportBot, serving chats with 1000+ users and 2000+ messages/month.",
                 "Led a team of 7 people to build a mobile app for the government.",
                 "Designed and architected the full app system.",
-                "Deployed AI chatbot and search engine.",
+                "Deployed AI chatbot, search engine, and core product.",
               ]}
             />
             <ProjectCard
@@ -235,7 +236,7 @@ export default function Home() {
         {/* Technical Skills */}
         <Section id="skills" title="Technical Skills">
           <div className="border-2 border-black">
-            <SkillRow label="Languages" skills="Python, C/C++, CUDA, SQL (Postgres), JavaScript, HTML/CSS" />
+            <SkillRow label="Languages" skills="Python, C/C++, C#, Bash, CUDA, SQL (Postgres), JavaScript, TypeScript, HTML/CSS, Dart" />
             <SkillRow label="Frameworks" skills="NextJS, React, Node.js, TailwindCSS, Chakra-UI, FastAPI" />
             <SkillRow label="Developer Tools" skills="GitHub, AWS, GCP, Azure, Hugging Face, Linux, Docker, Cloudflare, Jira, Figma" />
             <SkillRow label="Libraries" skills="PyTorch, Tensorflow, transformers, Faiss, ChromaDB, pandas, NumPy, Matplotlib" isLast />
