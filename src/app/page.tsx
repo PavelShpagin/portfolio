@@ -149,6 +149,7 @@ export default function Home() {
                 "Developed NaviLoc, a GNSS-denied UAV localization system; published in Drones (MDPI), a Q1 journal.",
                 "Optimized navigation algorithms 10x, making Pi 5 deployment feasible.",
                 "Accelerated server preprocessing by 20x, enabling faster missions at scale.",
+                "Built and deployed a novel agentic Signal SupportBot, serving chats with 1000+ users and 2000+ messages/month.",
               ]}
             />
             <ExperienceCard
@@ -184,7 +185,6 @@ export default function Home() {
               tech="Azure, Jira, OpenAI API, Figma"
               period="October 2025 - November 2025"
               highlights={[
-                "Built and deployed a novel agentic Signal SupportBot, serving chats with 1000+ users and 2000+ messages/month.",
                 "Led a team of 7 people to build a mobile app for the government.",
                 "Designed and architected the full app system.",
                 "Deployed AI chatbot, search engine, and core product.",
