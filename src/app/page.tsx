@@ -116,7 +116,7 @@ export default function Home() {
               authors="Pavel Shpagin and Vasyl Tereshchenko"
               journal="Computational Geometry: Theory and Applications"
               status="Under review"
-              doi="https://doi.org/10.5281/zenodo.17781092"
+              doi="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6146463"
             />
             <PublicationCard
               title="Multiplication-Free O(b log b) Balanced Numeral Conversion"
