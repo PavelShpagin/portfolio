@@ -246,12 +246,12 @@ export default function Home() {
         {/* Awards */}
         <Section id="awards" title="Awards & Honors">
           <div className="space-y-4">
-            {/* <AwardCard
-              title="Brave Research Grant"
+            <AwardCard
+              title="Brave1 Research Grant"
               subtitle="NaviX"
               date="Dec 2025"
-              description="Awarded $80,000 research grant from Brave for developing advanced UAV visual localization systems."
-            /> */}
+              description="Awarded $80,000 research grant from Brave1 for developing advanced UAV visual localization systems."
+            />
             <AwardCard
               title="ICPC Ukraine 2025"
               subtitle="Programming Contest"
