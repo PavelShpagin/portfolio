@@ -303,7 +303,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="font-mono text-sm">
-              Pavel Shpagin | 2025
+              Pavel Shpagin | 2026
             </p>
             <div className="flex gap-4">
               <a
