@@ -142,7 +142,8 @@ export default function Home() {
           <div className="space-y-4">
             <ExperienceCard
               company="Academia Tech"
-              role="Applied Research Scientist"
+              role="Co-founder & Research Scientist"
+              website="https://academia.tech"
               location="Kyiv, Ukraine"
               period="September 2025 - Present"
               highlights={[
@@ -398,18 +399,28 @@ function ExperienceCard({
   location,
   period,
   highlights,
+  website,
 }: {
   company: string;
   role: string;
   location: string;
   period: string;
   highlights: string[];
+  website?: string;
 }) {
   return (
     <div className="border-2 border-black p-4">
       <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
         <div>
-          <h3 className="text-xl font-bold">{company}</h3>
+          <h3 className="text-xl font-bold">
+            {website ? (
+              <a href={website} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                {company}
+              </a>
+            ) : (
+              company
+            )}
+          </h3>
           <p className="font-mono text-sm mt-1">{role}</p>
         </div>
         <div className="font-mono text-sm text-right">
