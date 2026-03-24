@@ -412,13 +412,13 @@ function ExperienceCard({
     <div className="border-2 border-black p-4">
       <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
         <div>
-          <h3 className="text-xl font-bold">
-            {website ? (
-              <a href={website} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                {company}
+          <h3 className="text-xl font-bold flex items-center gap-2">
+            {company}
+            {website && (
+              <a href={website} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-mono font-normal hover:bg-black hover:text-white px-1.5 py-0.5 border-2 border-black transition-colors">
+                <FaExternalLinkAlt className="w-3 h-3" />
+                {website.replace(/^https?:\/\//, "")}
               </a>
-            ) : (
-              company
             )}
           </h3>
           <p className="font-mono text-sm mt-1">{role}</p>
