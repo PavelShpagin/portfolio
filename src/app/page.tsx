@@ -143,7 +143,7 @@ export default function Home() {
             <ExperienceCard
               company="Academia Tech"
               role="Co-founder & Research Scientist"
-              website="https://academia.tech"
+              website="https://theacademia.tech"
               location="Kyiv, Ukraine"
               period="September 2025 - Present"
               highlights={[
