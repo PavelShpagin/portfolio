@@ -150,7 +150,20 @@ export default function Home() {
                 "Developed NaviLoc, a GNSS-denied UAV localization system; published in Drones (MDPI), a Q1 journal.",
                 "Optimized navigation algorithms 10x, making Pi 5 deployment feasible.",
                 "Accelerated server preprocessing by 20x, enabling faster missions at scale.",
-                "Built and deployed a novel agentic Signal SupportBot, serving chats with 1000+ users and 2000+ messages/month.",
+                <>
+                  Created{" "}
+                  <a
+                    href="https://supportbot.info/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-sm font-mono hover:bg-black hover:text-white px-1.5 py-0.5 border-2 border-black transition-colors"
+                  >
+                    <FaExternalLinkAlt className="w-3 h-3" />
+                    supportbot.info
+                  </a>
+                  , serving chats with 1000+ users and answering 1000+ messages/month.
+                </>,
+                "Created brand and frontend for StabX, NaviX, company website, Academia cloud portal.",
               ]}
             />
             <ExperienceCard
@@ -405,7 +418,7 @@ function ExperienceCard({
   role: string;
   location: string;
   period: string;
-  highlights: string[];
+  highlights: React.ReactNode[];
   website?: string;
 }) {
   return (
