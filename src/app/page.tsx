@@ -84,7 +84,7 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-bold">Taras Shevchenko National University of Kyiv</h3>
                 <p className="font-mono text-sm mt-1">Bachelor of Computer Science</p>
-                <p className="font-mono text-sm font-bold mt-1">GPA: 3.91/4.00</p>
+                <p className="font-mono text-sm font-bold mt-1">GPA: 3.94/4.00</p>
               </div>
               <div className="font-mono text-sm text-right">
                 <p>Kyiv, Ukraine</p>
