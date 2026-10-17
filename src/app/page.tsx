@@ -79,22 +79,36 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-6 py-12 space-y-16">
         {/* Education */}
         <Section id="education" title="Education">
-          <div className="border-2 border-black p-6">
-            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
-              <div>
-                <h3 className="text-xl font-bold">Taras Shevchenko National University of Kyiv</h3>
-                <p className="font-mono text-sm mt-1">Bachelor of Computer Science</p>
-                <p className="font-mono text-sm font-bold mt-1">GPA: 3.94/4.00</p>
-              </div>
-              <div className="font-mono text-sm text-right">
-                <p>Kyiv, Ukraine</p>
-                <p>Sep 2022 - Jun 2026</p>
+          <div className="space-y-4">
+            <div className="border-2 border-black p-6">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
+                <div>
+                  <h3 className="text-xl font-bold">University of Oxford</h3>
+                  <p className="font-mono text-sm mt-1">MSc in Advanced Computer Science</p>
+                </div>
+                <div className="font-mono text-sm text-right">
+                  <p>Oxford, United Kingdom</p>
+                  <p>2026 - 2027</p>
+                </div>
               </div>
             </div>
-            <div className="mt-4 pt-4 border-t-2 border-black">
-              <p className="font-mono text-sm">
-                <span className="font-bold">Relevant Coursework:</span> Algorithms & Data Structures, Machine Learning, Neural Networks, Probability & Statistics, Distributed & Parallel Programming, Computational Geometry, Cryptography
-              </p>
+            <div className="border-2 border-black p-6">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
+                <div>
+                  <h3 className="text-xl font-bold">Taras Shevchenko National University of Kyiv</h3>
+                  <p className="font-mono text-sm mt-1">Bachelor of Computer Science</p>
+                  <p className="font-mono text-sm font-bold mt-1">GPA: 3.94/4.00</p>
+                </div>
+                <div className="font-mono text-sm text-right">
+                  <p>Kyiv, Ukraine</p>
+                  <p>Sep 2022 - Jun 2026</p>
+                </div>
+              </div>
+              <div className="mt-4 pt-4 border-t-2 border-black">
+                <p className="font-mono text-sm">
+                  <span className="font-bold">Relevant Coursework:</span> Algorithms & Data Structures, Machine Learning, Neural Networks, Probability & Statistics, Distributed & Parallel Programming, Computational Geometry, Cryptography
+                </p>
+              </div>
             </div>
           </div>
         </Section>
